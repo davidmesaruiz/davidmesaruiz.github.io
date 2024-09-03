@@ -2,8 +2,6 @@
 layout: page
 title: ""
 ---
-% Hay que poner research interests
-
 <div style="display: flex; align-items: center;">
   <div style="flex: 2; padding: 1px; text-align: left;">
     <h2>Research papers</h2>
@@ -48,6 +46,7 @@ This sheds light on the relatively understudied increase in US crime during the 
   </div>
 </div>
 
+<!--
 <div style="display: flex; align-items: center;">
   <div style="flex: 2; padding: 1px; text-align: left;">
     <h2>Work in Progress</h2>
@@ -61,3 +60,4 @@ This sheds light on the relatively understudied increase in US crime during the 
     <img src="/images/dogs.jpeg" alt="Doggies" width="85%" height="85%">
   </div>
 </div>
+-->
