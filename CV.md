@@ -3,7 +3,7 @@ layout: page
 title: ""
 ---
 <div style="flex: 2; padding: 5px; text-align: left;">
-  You can download my CV <a href="mesa_ruiz_david_cv.pdf" download>here</a>
+  You can download my CV <a href="https://drive.google.com/file/d/1SPON4jceXCDbCLDkIAKQEAFGrDjxEo4A/view?usp=drive_link" download>here</a>
 </div>
 
 <iframe src="https://drive.google.com/file/d/1SPON4jceXCDbCLDkIAKQEAFGrDjxEo4A/preview" width="1000" height="700" allow="autoplay"></iframe>
