@@ -13,21 +13,21 @@ title: "Teaching"
     -  Text Analysis
 
 - Applications of Econometrics (Econometrics 2):
-  - Tutorial Groups
+  - 5 tutorial groups (feedback here)
   - Piazza (Q&A Forum)
   - Helpdesks
   - Marking Projects
 
 ### Academic Course 2022/2023 (University of Edinburgh)
 Applications of Econometrics (Econometrics 2):
-- Tutorial Groups 
+- 7 tutorial groups (feedback here)
 - Piazza (Q&A Forum)
 - Helpdesks
 - Marking Projects
 
 ### Academic Course 2021/2022 (University of Edinburgh)
 Economics 2 (Macroeconomics 2)
-- Tutorial Groups
+- 4 Tutorial Groups (feedback here)
 - Marking Projects
 - Marking Exams
 
@@ -36,7 +36,7 @@ Economic Principles
 
 ### Academic Course 2020/2021 (University of Edinburgh)
 Economics 1 (Macroeconomics 1):
-- Tutorial Groups
+- 5 tutorial groups (feedback here)
 - Marking Projects
 - Proofreading Exams
 - Marking Exams
