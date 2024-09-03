@@ -27,7 +27,7 @@ Applications of Econometrics (Econometrics 2)
 
 ### Academic Course 2021/2022 (University of Edinburgh)
 Economics 2 (Macroeconomics 2)
-- 4 Tutorial Groups ([students feedback](https://drive.google.com/file/d/1Q14CVvrGH5LKN2-SSVkyHDQjW9jQzG1X/view?usp=sharing))
+- 6 Tutorial Groups ([students feedback](https://drive.google.com/file/d/1Q14CVvrGH5LKN2-SSVkyHDQjW9jQzG1X/view?usp=sharing))
 - Marking Projects
 - Marking Exams
 
