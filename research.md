@@ -20,7 +20,8 @@ title: ""
   </div>
 </div>
 
-<div style="padding: 10px;">
+<div style="display: flex; align-items: center; margin-top: 20px;">
+  <div style="flex: 2; padding: 10px;">
   <h2>Working Papers</h2>
   <ul style="list-style-type: disc; padding-left: 20px;">
     <li>
@@ -38,6 +39,10 @@ title: ""
       </p> 
     </li>
   </ul>
+  </div>
+  <div style="flex: 1; padding: 10px; text-align: right;">
+    <img src="/images/dogs.jpeg" alt="Doggies" style="width: 100%; height: auto;">
+  </div>
 </div>
 
 <div style="display: flex; align-items: center; margin-top: 20px;">
