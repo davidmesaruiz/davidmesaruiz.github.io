@@ -13,21 +13,21 @@ title: "Teaching"
     -  Text Analysis
 
 - Applications of Econometrics (Econometrics 2)
-  - 5 Tutorial Groups ([feedback](https://drive.google.com/file/d/1w3zzWZpd-AlHJJZYGzW5XquSXNwIMwA9/view?usp=sharing))
+  - 5 Tutorial Groups ([students feedback](https://drive.google.com/file/d/1w3zzWZpd-AlHJJZYGzW5XquSXNwIMwA9/view?usp=sharing))
   - Piazza (Q&A Forum)
   - Helpdesks
   - Marking Projects
 
 ### Academic Course 2022/2023 (University of Edinburgh)
 Applications of Econometrics (Econometrics 2)
-- 7 Tutorial Groups ([feedback](https://drive.google.com/file/d/19xJYe8zNnYhfLAHq_F1AQ5oY2uT4Tzoz/view?usp=sharing))
+- 7 Tutorial Groups ([students feedback](https://drive.google.com/file/d/19xJYe8zNnYhfLAHq_F1AQ5oY2uT4Tzoz/view?usp=sharing))
 - Piazza (Q&A Forum)
 - Helpdesks
 - Marking Projects
 
 ### Academic Course 2021/2022 (University of Edinburgh)
 Economics 2 (Macroeconomics 2)
-- 4 Tutorial Groups ([feedback](https://drive.google.com/file/d/1Q14CVvrGH5LKN2-SSVkyHDQjW9jQzG1X/view?usp=sharing))
+- 4 Tutorial Groups ([students feedback](https://drive.google.com/file/d/1Q14CVvrGH5LKN2-SSVkyHDQjW9jQzG1X/view?usp=sharing))
 - Marking Projects
 - Marking Exams
 
@@ -36,7 +36,7 @@ Economic Principles
 
 ### Academic Course 2020/2021 (University of Edinburgh)
 Economics 1 (Macroeconomics 1)
-- 5 tutorial groups ([feedback](https://drive.google.com/file/d/1NAxndo9zz3noQu2LLHfMjmQaRTay05kb/view?usp=sharing))
+- 5 tutorial groups ([students feedback](https://drive.google.com/file/d/1NAxndo9zz3noQu2LLHfMjmQaRTay05kb/view?usp=sharing))
 - Marking Projects
 - Proofreading Exams
 - Marking Exams
