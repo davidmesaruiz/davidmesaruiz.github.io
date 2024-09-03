@@ -14,7 +14,7 @@ title: ""
         <a href="http://ssrn.com/abstract=4624688">
           What drives crime, Unemployment or Inequality?
         </a>
-        <p style="font-size: 10pt;">TThis paper examines the link between unemployment, inequality, and crime in the U.S., finding that while trade competition doesn't affect arrest rates, task routinization does, particularly increasing arrests among adult men for violent crimes and gambling. The study suggests that inequality is the key mechanism behind this rise, highlighting the need for policymakers to address income inequality and protect workers affected by technological changes.</p>        
+        <p style="font-size: 10pt;">In this paper I examine the link between unemployment, inequality, and crime in the U.S., finding that while trade competition doesn't affect arrest rates, task routinization does, particularly increasing arrests among adult men for violent crimes and gambling. The study suggests that inequality is the key mechanism behind this rise, highlighting the need for policymakers to address income inequality and protect workers affected by technological changes.</p>        
       </li>
       <li>
           Did low-skilled men crowd low-skilled women out of the UK labor market?
