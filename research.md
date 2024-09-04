@@ -8,7 +8,7 @@ title: ""
     <h2>Job Market Paper</h2>
     <ul style="list-style-type: square; padding-left: 20px;">
       <li>
-        <span style="font-size: 14pt; font-weight: bold;">
+        <span style="font-size: 14pt;">
           Housing, Bunching, and Matching: The Stamp Duty Land Tax and Its Effects on the Housing Market.
         </span>
         <p style="font-size: 11pt; margin-top: 5px;">
@@ -31,8 +31,8 @@ title: ""
   <div style="flex: 2; padding: 10px;">
     <h2>Working Papers</h2>
     <ul style="list-style-type: square; padding-left: 20px;">
-      <li>
-        <span style="font-size: 14pt; font-weight: bold;">
+      <li">
+        <span style="font-size: 14pt;">
           <a href="http://ssrn.com/abstract=4624688" style="text-decoration: none; color: inherit;">
             What Drives Crime: Unemployment or Inequality?
           </a>
@@ -47,8 +47,8 @@ title: ""
           <li>Conference - Scottish Graduate Program in Economics Conference (2024)</li>
         </ul>
       </li>
-      <li>
-        <span style="font-size: 14pt; font-weight: bold;">
+      <li style="margin-top: 10px;>
+        <span style="font-size: 14pt;">
           Did Low-Skilled Men Crowd Low-Skilled Women Out of the UK Labor Market?
         </span>
         <p style="font-size: 11pt; margin-top: 5px;">
