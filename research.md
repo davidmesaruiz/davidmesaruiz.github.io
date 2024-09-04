@@ -9,7 +9,7 @@ title: ""
     <ul style="list-style-type: square; padding-left: 20px;">
       <li>
         <span style="font-size: 14pt;">
-          Housing, Bunching, and Matching: The Stamp Duty Land Tax and Its Effects on the Housing Market.
+          <u>Housing, Bunching, and Matching: The Stamp Duty Land Tax and Its Effects on the Housing Market.</u>
         </span>
         <p style="font-size: 11pt; margin-top: 5px;">
           This paper demonstrates the positive impact of replacing notches with kinks in property transaction taxes, using the 2014 SDLT reform as a case study. The findings reveal significant changes in transaction and listing behaviors, elimination of welfare losses, and the effect of taxes on match quality and mobility. Regional heterogeneity in responses to the 250K notch is explained through a search and matching model. The paper recommends implementing discontinuous taxes like SDLT with consideration of market structures, advocating for replacing notches with kinks due to their minimal revenue cost and positive effects.
@@ -33,8 +33,8 @@ title: ""
     <ul style="list-style-type: square; padding-left: 20px;">
       <li style="margin-bottom: 20px;">
         <span style="font-size: 14pt;">
-          <a href="http://ssrn.com/abstract=4624688">
-            What Drives Crime: Unemployment or Inequality?
+          <a href="http://ssrn.com/abstract=4624688" style="text-decoration: none; color: inherit;">
+            <u>What Drives Crime: Unemployment or Inequality?</u>
           </a>
         </span>
         <p style="font-size: 11pt; margin-top: 5px;">
@@ -49,7 +49,7 @@ title: ""
       </li>
       <li style="margin-top: 25px;">
         <span style="font-size: 14pt;">
-          Did Low-Skilled Men Crowd Low-Skilled Women Out of the UK Labor Market?
+          <u>Did Low-Skilled Men Crowd Low-Skilled Women Out of the UK Labor Market?</u>
         </span>
         <p style="font-size: 11pt; margin-top: 5px;">
           This paper examines the impact of information and communications technologies (ICT) on employment in the UK, focusing on how ICT has polarized job opportunities by skill level and gender. It explores how low-skilled men, displaced from blue-collar jobs, have moved into interpersonal occupations, potentially displacing low-skilled women, mirroring trends observed in the U.S. labor market.
