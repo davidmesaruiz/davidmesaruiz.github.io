@@ -33,7 +33,7 @@ title: ""
     <ul style="list-style-type: square; padding-left: 20px;">
       <li style="margin-bottom: 20px;">
         <span style="font-size: 14pt;">
-          <a href="http://ssrn.com/abstract=4624688" style="text-decoration: none; color: inherit;">
+          <a href="http://ssrn.com/abstract=4624688">
             What Drives Crime: Unemployment or Inequality?
           </a>
         </span>
