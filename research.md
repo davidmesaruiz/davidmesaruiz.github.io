@@ -56,6 +56,11 @@ title: ""
         <p style="font-size: 10pt; margin-top: 5px;">
           This paper estimates the increased risk of crashes caused by drunk drivers in Spain (2.7-3.9 times higher at night) and suggests that fines of €1250 could offset the external costs of drunk driving, which have declined since the introduction of stricter penalties in 2006.
         </p>
+        <ul style="list-style-type: disc; padding-left: 20px;">
+          <li>Positive impact on property transaction taxes.</li>
+          <li>Changes in transaction and listing behaviors.</li>
+          <li>Elimination of welfare losses.</li>
+        </ul>        
       </li>
     </ul>
   </div>
