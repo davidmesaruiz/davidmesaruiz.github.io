@@ -11,11 +11,11 @@ title: ""
         <span style="font-size: 14pt; font-weight: bold;">
           Housing, Bunching, and Matching: The Stamp Duty Land Tax and Its Effects on the Housing Market.
         </span>
-        <p style="font-size: 10pt; margin-top: 5px;">
+        <p style="font-size: 11pt; margin-top: 5px;">
           This paper demonstrates the positive impact of replacing notches with kinks in property transaction taxes, using the 2014 SDLT reform as a case study. The findings reveal significant changes in transaction and listing behaviors, elimination of welfare losses, and the effect of taxes on match quality and mobility. Regional heterogeneity in responses to the 250K notch is explained through a search and matching model. The paper recommends implementing discontinuous taxes like SDLT with consideration of market structures, advocating for replacing notches with kinks due to their minimal revenue cost and positive effects.
         </p>
-        <p style="font-size: 10pt; margin-top: 5px; margin-bottom: 0;">Presented at:</p>
-        <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; font-size: 8pt;">
+        <p style="font-size: 11pt; margin-top: 5px; margin-bottom: 0;">Presented at:</p>
+        <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; font-size: 11pt;">
           <li>Ph.D. Seminar - University of Edinburgh</li>
           <li>Workshop - Ph.D. Statistics Day at University of Edinburgh (2023)</li>
         </ul>             
