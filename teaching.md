@@ -12,14 +12,14 @@ title: "Teaching"
     -  Econometrics
     -  Text Analysis
 
-- Applications of Econometrics (Econometrics 2)
+- Applications of Econometrics (Econometrics 2)*
   - 5 Tutorial Groups ([students feedback](https://drive.google.com/file/d/1w3zzWZpd-AlHJJZYGzW5XquSXNwIMwA9/view?usp=sharing))
   - Piazza (Q&A Forum)
   - Helpdesks
   - Marking Projects
 
 ### Academic Course 2022/2023 (University of Edinburgh)
-Applications of Econometrics (Econometrics 2)
+Applications of Econometrics (Econometrics 2)*
 - 7 Tutorial Groups ([students feedback](https://drive.google.com/file/d/19xJYe8zNnYhfLAHq_F1AQ5oY2uT4Tzoz/view?usp=sharing))
 - Piazza (Q&A Forum)
 - Helpdesks
@@ -45,3 +45,5 @@ Economics 1 (Macroeconomics 1)
 Econometrics 2:
 - Lab instructor
 - Exam vigilator
+
+* For this subject I developed different tools to teach interactively and more intuitively theoretical econometrics ([link](https://davmesrui.shinyapps.io/AoE_tutorial_1/))
