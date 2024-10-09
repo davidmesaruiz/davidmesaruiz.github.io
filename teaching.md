@@ -17,6 +17,8 @@ title: "Teaching"
   - Piazza (Q&A Forum)
   - Helpdesks
   - Marking Projects
+ 
+*For this subject I developed different tools to teach interactively and more intuitively theoretical econometrics ([link](https://davmesrui.shinyapps.io/AoE_tutorial_1/))
 
 ### Academic Course 2022/2023 (University of Edinburgh)
 Applications of Econometrics (Econometrics 2)*
@@ -24,8 +26,6 @@ Applications of Econometrics (Econometrics 2)*
 - Piazza (Q&A Forum)
 - Helpdesks
 - Marking Projects
-
-*For this subject I developed different tools to teach interactively and more intuitively theoretical econometrics ([link](https://davmesrui.shinyapps.io/AoE_tutorial_1/))
 
 ### Academic Course 2021/2022 (University of Edinburgh)
 Economics 2 (Macroeconomics 2)
