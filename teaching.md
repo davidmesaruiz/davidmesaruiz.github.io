@@ -25,6 +25,8 @@ Applications of Econometrics (Econometrics 2)*
 - Helpdesks
 - Marking Projects
 
+*For this subject I developed different tools to teach interactively and more intuitively theoretical econometrics ([link](https://davmesrui.shinyapps.io/AoE_tutorial_1/))
+
 ### Academic Course 2021/2022 (University of Edinburgh)
 Economics 2 (Macroeconomics 2)
 - 6 Tutorial Groups ([students feedback](https://drive.google.com/file/d/1Q14CVvrGH5LKN2-SSVkyHDQjW9jQzG1X/view?usp=sharing))
@@ -45,5 +47,3 @@ Economics 1 (Macroeconomics 1)
 Econometrics 2:
 - Lab instructor
 - Exam vigilator
-
-*For this subject I developed different tools to teach interactively and more intuitively theoretical econometrics ([link](https://davmesrui.shinyapps.io/AoE_tutorial_1/))
