@@ -46,4 +46,4 @@ Econometrics 2:
 - Lab instructor
 - Exam vigilator
 
-* For this subject I developed different tools to teach interactively and more intuitively theoretical econometrics ([link](https://davmesrui.shinyapps.io/AoE_tutorial_1/))
+*For this subject I developed different tools to teach interactively and more intuitively theoretical econometrics ([link](https://davmesrui.shinyapps.io/AoE_tutorial_1/))
