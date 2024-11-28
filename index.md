@@ -5,7 +5,7 @@ title: ""
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1; padding: 20px;">
-    <p>Hello there! Welcome to my website. I will be in the European Job Market this year.</p>
+    <p>Hello there! Welcome to my website.</p>
     <h2>About Me</h2>
     <p>I'm a PhD Candidate at the University of Edinburgh. My supervisors are Maia Guell and Andreas Steinhauer. I'm also affiliated to the Centre for Data Culture and Society at the University of Edinburgh as well as the Digital Global Development Cluster.</p>
     <p>My main research interests lie in the areas of (applied) Labor Economics, Public Economics and Crime Economics. I am also interested in Data Science and Machine Learning applications.</p>
