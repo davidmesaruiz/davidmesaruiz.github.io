@@ -26,7 +26,9 @@ title: "Non-academic writing"
     </ul>
     <ul style="list-style-type: disc; padding-left: 0;">
       <li>
-        El Mercado de Trabajo, Junio 2017: Afiliación, temporalidad y cambio de modelo productivo en Andalucía, CESUR, 2018.
+        <a href=https://www.ceys.org/wp-content/uploads/2017/07/informe_CESUR_julio-2017.pdf>
+        El Mercado de Trabajo, Junio 2017: Afiliación, temporalidad y cambio de modelo productivo en Andalucía
+        </a> CESUR, 2018.
       </li>
     </ul>
   </div>    
