@@ -18,7 +18,7 @@ title: "Teaching"
   - Helpdesks
   - Marking Projects
  
-*For this subject I developed different tools to teach interactively and more intuitively theoretical econometrics ([link](https://davmesrui.shinyapps.io/AoE_tutorial_1/))
+*For this subject I developed different tools to teach interactively and more intuitively theoretical econometrics ([here](https://davmesrui.shinyapps.io/AoE_tutorial_1/) and [here](https://davmesrui.shinyapps.io/AoE_tutorial_2/))
 
 ### Academic Course 2022/2023 (University of Edinburgh)
 Applications of Econometrics (Econometrics 2)*
