@@ -22,6 +22,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "teaching.md", title: "Teaching"}
   - {file: "non_academic_writing.md", title: "Non-academic writing"}
   - {file: "codes.md", title: "Software"}
+  - {file: "AoE 25.md", title: "AoE" 25 slides"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:davmesrui@gmail.com"}
