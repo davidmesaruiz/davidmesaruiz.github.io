@@ -9,3 +9,4 @@ Here are the slides for each session in AoE 25 (I upload them at the end of my t
 - [Tutorial 4](https://drive.google.com/file/d/1iw-lsGoMnrX3l_50xcrTEbSlUQxf24zn/view?usp=sharing)
 - [Tutorial 5](https://drive.google.com/file/d/1GlxviBlJAdudFE75wrQsV5RJ_6btVu2i/view?usp=sharing)
 - [Tutorial 6](https://drive.google.com/file/d/1_YjImyxGvmvY_mSUgrVVy-_gWXVsFXUX/view?usp=sharing)
+- [Tutorial 8](https://drive.google.com/file/d/1elACUwkRksCc6GCrhg9mHQYu80gH666L/view?usp=sharing)
