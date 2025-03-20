@@ -9,7 +9,7 @@ title: ""
     <ul style="list-style-type: square; padding-left: 20px;">
       <li>
         <span style="font-size: 14pt;">
-          <a href="https://drive.google.com/file/d/1Qg1GGhBU2GGuzi55yuqlhnCEyQN-mMF7/view?usp=drive_link">
+          <a href="https://drive.google.com/file/d/1Qg1GGhBU2GGuzi55yuqlhnCEyQN-mMF7/view?usp=sharing">
             The regional heterogeneous effects of property transactions taxes in England and Wales
           </a>
         </span>
@@ -35,7 +35,7 @@ title: ""
     <ul style="list-style-type: square; padding-left: 20px;">
       <li style="margin-bottom: 20px;">
         <span style="font-size: 14pt;">
-          <a href="https://drive.google.com/file/d/1v5QufP-uvjzgKu7GCHvOtCVgLBFIfuu5/view?usp=drive_link">
+          <a href="https://drive.google.com/file/d/1v5QufP-uvjzgKu7GCHvOtCVgLBFIfuu5/view?usp=sharing">
             Crime responses to labour market shocks
           </a>
         </span>
