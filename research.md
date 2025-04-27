@@ -19,8 +19,12 @@ financial restrictions explain the regional heterogeneity in the response to the
         </p>
         <p style="font-size: 11pt; margin-top: 5px; margin-bottom: 0;">Presented at:</p>
         <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; font-size: 11pt;">
-          <li>Ph.D. Seminar - University of Edinburgh</li>
-          <li>Workshop - Ph.D. Statistics Day at University of Edinburgh (2023)</li>
+          <li>Conference (scheduled) - Royal Economic Society (2025)</li>
+          <li>Conference (scheduled) - Spanish Public Economics Meeting (2025)</li>
+          <li>Conference (scheduled) - Housing Studies Association Conference (2025)</li>
+          <li>Conference - Scottish Economic Society Conference (2025)</li>
+          <li>Internal Seminar - University of Edinburgh (2024)</li>
+          <li>Workshop - Ph.D. Statistics Day at the University of Edinburgh (2023)</li>
         </ul>             
       </li>
     </ul>
