@@ -30,7 +30,7 @@ financial restrictions explain the regional heterogeneity in the response to the
     </ul>
   </div>
   <div style="flex: 1; padding: 10px; text-align: right;">
-    <img src="/images/st_andres_castle_tunnel.jpeg" alt="tunnel" style="width: 100%; height: auto;">
+    <img src="/images/trafalgar_sq.jpg" alt="Trafalgar Square" style="width: 100%; height: auto;">
   </div>
 </div>
 
@@ -74,7 +74,7 @@ financial restrictions explain the regional heterogeneity in the response to the
     </ul>
   </div>
   <div style="flex: 1; padding: 10px; text-align: right;">
-    <img src="/images/trafalgar_sq.jpg" alt="Trafalgar Square" style="width: 100%; height: auto;">
+    <img src="/images/st_andres_castle_tunnel.jpeg" alt="tunnel" style="width: 100%; height: auto;">
   </div>
 </div>
 
