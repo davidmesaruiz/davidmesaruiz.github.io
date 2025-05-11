@@ -110,7 +110,7 @@ financial restrictions explain the regional heterogeneity in the response to the
     </ul>
   </div>
   <div style="flex: 1; padding: 10px; text-align: right;">
-    <img src="/images/dogs.jpeg" alt="Doggies" style="width: 100%; height: auto;">
+    <img src="/images/trafalgar_sq.jpg" alt="Doggies" style="width: 100%; height: auto;">
   </div>
 </div>
 -->
