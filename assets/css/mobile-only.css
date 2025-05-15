@@ -1,0 +1,104 @@
+/* SOLO estilos moviles - no afecta desktop */
+@media only screen and (max-width: 767px) {
+  /* Asegurar ancho completo en movil */
+  body > article,
+  .page-content,
+  main {
+    width: 100% !important;
+    padding: 15px !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+  }
+  
+  /* Arreglar contenedores flex */
+  div[style*="display: flex"] {
+    display: block !important;
+  }
+  
+  div[style*="flex:"] {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: none !important;
+    padding: 0 !important;
+    margin-bottom: 20px !important;
+  }
+  
+  /* Imagenes */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  /* Imagen de perfil */
+  img[alt*="David"] {
+    width: 200px !important;
+    max-width: 200px !important;
+  }
+  
+  /* Texto completo */
+  p, ul, ol, li, h1, h2, h3, h4, h5, h6 {
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    word-wrap: break-word;
+  }
+  
+  /* Eliminar márgenes laterales */
+  * {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Restaurar márgenes verticales */
+  p, ul, ol {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  
+  /* Arreglar iframe del CV */
+  iframe {
+    width: 100% !important;
+    height: 500px !important;
+  }
+  
+  /* Navegación movil */
+  nav {
+    text-align: center;
+  }
+  
+  nav a {
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  /* Ocultar scroll horizontal */
+  body, html {
+    overflow-x: hidden;
+  }
+}
+
+/* SOLO para pantallas muy pequeñas */
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 16px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+}
