@@ -26,3 +26,56 @@ body > footer
   box-shadow: 0 0 .6em rgba($dark, 0.04) inset
   border-top: 1px solid reduce(14)
   opacity: .9
+
+// Mobile-only fixes - agregar al final de index.sass
+@media only screen and (max-width: 767px)
+  // Reset de contenedores principales
+  body > article
+    width: 100% !important
+    padding: 15px !important
+    margin: 0 !important
+    
+  // Convertir flex a block en móvil
+  div[style*="display: flex"]
+    display: block !important
+    
+  div[style*="flex:"]
+    width: 100% !important
+    flex: none !important
+    padding: 0 !important
+    
+  // Imágenes responsive
+  img
+    max-width: 100% !important
+    height: auto !important
+    margin: 20px auto
+    display: block
+    
+  // Texto sin cortar
+  p, ul, ol, li, h1, h2, h3, h4, h5, h6
+    width: 100% !important
+    padding-left: 0 !important
+    padding-right: 0 !important
+    
+  // Sin márgenes laterales
+  *
+    margin-left: 0 !important
+    margin-right: 0 !important
+    
+  // Espaciado vertical
+  p, ul, ol
+    margin-top: 10px
+    margin-bottom: 10px
+    
+  h1, h2, h3
+    margin-top: 20px
+    margin-bottom: 15px
+    
+  // iFrame del CV
+  iframe
+    width: 100% !important
+    height: 500px !important
+    
+  // Sin scroll horizontal
+  body, html
+    overflow-x: hidden
