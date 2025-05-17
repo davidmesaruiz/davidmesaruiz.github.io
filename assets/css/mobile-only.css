@@ -1,119 +1,119 @@
-/* CSS para móvil - solución simple */
+/* CSS para menú horizontal de David Mesa-Ruiz */
+
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Contenedor del menú principal */
+body > header {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  padding: 15px 10px !important;
+  background-color: #fff !important;
+  border-bottom: 1px solid #eaeaea !important;
+}
+
+/* Nombre del autor - primer elemento */
+body > header > a:first-child {
+  font-weight: bold !important;
+  font-size: 18px !important;
+  margin-right: 25px !important;
+  color: #333 !important;
+  text-decoration: none !important;
+}
+
+/* Links del menú */
+body > header a {
+  display: inline-block !important;
+  margin: 0 12px !important;
+  padding: 5px 8px !important;
+  color: #444 !important;
+  text-decoration: none !important;
+  font-size: 16px !important;
+  transition: color 0.3s ease !important;
+  position: relative !important;
+}
+
+/* Efecto hover para los enlaces */
+body > header a:hover {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+
+/* Indicador de enlace activo */
+body > header a.active,
+body > header a:active {
+  font-weight: bold !important;
+}
+
+/* Indicador sutil de enlace activo */
+body > header a:after {
+  content: "" !important;
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 50% !important;
+  width: 0 !important;
+  height: 2px !important;
+  background: #555 !important;
+  transition: all 0.3s ease !important;
+  transform: translateX(-50%) !important;
+}
+
+body > header a:hover:after,
+body > header a.active:after {
+  width: 80% !important;
+}
+
+/* Ajuste para pantallas móviles */
 @media only screen and (max-width: 767px) {
-  /* 1. Arreglar el menú */
   body > header {
-    padding: 10px !important;
+    padding: 10px 5px !important;
+  }
+  
+  body > header > a:first-child {
+    width: 100% !important;
     text-align: center !important;
-    display: block !important;
+    margin-bottom: 10px !important;
+    margin-right: 0 !important;
   }
   
   body > header a {
-    display: inline-block !important;
-    margin: 5px 10px !important;
+    margin: 0 8px !important;
     padding: 5px !important;
     font-size: 14px !important;
   }
-  
-  /* Ocultar AoE 25 slides */
-  body > header a[href*="AoE_25"] {
-    display: none !important;
+}
+
+/* Para pantallas muy pequeñas */
+@media only screen and (max-width: 380px) {
+  body > header a {
+    margin: 0 5px !important;
+    font-size: 13px !important;
   }
-  
-  /* Cambiar "Non-academic writing" a "Writing" */
-  body > header a[href*="non_academic_writing"]::after {
-    content: "Writing";
-    display: inline-block;
-  }
-  
-  body > header a[href*="non_academic_writing"] {
-    font-size: 0 !important;
-  }
-  
+}
+
+/* Cambiar "Non-academic writing" a "Writing" */
+body > header a[href*="non_academic_writing"] {
+  font-size: 0 !important;
+}
+
+body > header a[href*="non_academic_writing"]::after {
+  content: "Writing" !important;
+  font-size: 16px !important;
+  display: inline-block !important;
+  position: static !important;
+  width: auto !important;
+  height: auto !important;
+  background: none !important;
+}
+
+@media only screen and (max-width: 767px) {
   body > header a[href*="non_academic_writing"]::after {
     font-size: 14px !important;
-  }
-  
-  /* 2. Agregar la foto en la esquina superior derecha */
-  /* Contenedor para About Me + imagen */
-  h2:first-of-type {
-    position: relative !important;
-    padding-right: 100px !important;
-    min-height: 80px !important;
-    display: flex !important;
-    align-items: center !important;
-    margin-bottom: 20px !important;
-  }
-  
-  /* Crear la imagen en la esquina superior derecha */
-  h2:first-of-type::after {
-    content: "" !important;
-    width: 80px !important;
-    height: 80px !important;
-    border-radius: 50% !important;
-    background-image: url('/images/dmr_gimage.jpg') !important;
-    background-size: cover !important;
-    background-position: center !important;
-    position: absolute !important;
-    right: 0 !important;
-    top: 0 !important;
-    display: block !important;
-  }
-  
-  /* 3. Corregir el ancho del texto */
-  body > article,
-  .page-content {
-    width: 100% !important;
-    max-width: 100% !important;
-    padding: 15px !important;
-    box-sizing: border-box !important;
-    overflow-x: hidden !important;
-  }
-  
-  /* 4. Asegurar que los párrafos no se corten */
-  p, h1, h2, h3, ul, ol, a {
-    width: 100% !important;
-    max-width: 100% !important;
-    word-wrap: break-word !important;
-    overflow-wrap: break-word !important;
-    white-space: normal !important;
-    box-sizing: border-box !important;
-  }
-  
-  p {
-    padding: 0 0 15px 0 !important;
-  }
-  
-  /* 5. Transformar flex layouts a block */
-  div[style*="display: flex"] {
-    display: block !important;
-  }
-  
-  div[style*="flex:"] {
-    width: 100% !important;
-    max-width: 100% !important;
-    flex: none !important;
-  }
-  
-  /* 6. Ocultar imagen grande y mover abajo */
-  img[alt="Pic of David"],
-  div[style*="max-width: 40%"] {
-    display: none !important;
-  }
-  
-  /* 7. No scroll horizontal */
-  html, body {
-    overflow-x: hidden !important;
-    width: 100% !important;
-    max-width: 100% !important;
-  }
-  
-  /* 8. Forzar !important en todo */
-  * {
-    max-width: 100% !important;
-  }
-  
-  /* 9. Más espaciado general */
-  .page-content > div {
-    margin-bottom: 30px !important;
   }
 }
