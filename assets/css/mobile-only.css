@@ -1,10 +1,18 @@
-/* CSS para menú horizontal de David Mesa-Ruiz */
+/* CSS para menú horizontal y texto de David Mesa-Ruiz */
 
 /* Estilos generales */
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  overflow-wrap: break-word !important;
+  word-wrap: break-word !important;
+  -ms-word-break: break-word !important;
+  word-break: break-word !important;
+  -ms-hyphens: auto !important;
+  -moz-hyphens: auto !important;
+  -webkit-hyphens: auto !important;
+  hyphens: auto !important;
 }
 
 /* Contenedor del menú principal */
@@ -69,6 +77,34 @@ body > header a.active:after {
   width: 80% !important;
 }
 
+/* Contenido principal - arregla problemas de texto cortado */
+body > article,
+.page-content,
+main {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 15px !important;
+  box-sizing: border-box !important;
+  overflow-x: visible !important;
+}
+
+/* Asegurar que todos los elementos de texto se vean correctamente */
+p, h1, h2, h3, h4, h5, h6, ul, ol, li, a, span, div {
+  max-width: 100% !important;
+  overflow-wrap: break-word !important;
+  word-wrap: break-word !important;
+  -ms-word-break: break-word !important;
+  word-break: break-word !important;
+  white-space: normal !important;
+}
+
+/* Asegurar que las imágenes se ajusten correctamente */
+img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+}
+
 /* Ajuste para pantallas móviles */
 @media only screen and (max-width: 767px) {
   body > header {
@@ -87,6 +123,32 @@ body > header a.active:after {
     padding: 5px !important;
     font-size: 14px !important;
   }
+  
+  /* Contenido principal en móvil */
+  body > article,
+  .page-content,
+  main {
+    padding: 15px 10px !important;
+  }
+  
+  /* Texto más pequeño en móvil para mejor ajuste */
+  p, li {
+    font-size: 15px !important;
+    line-height: 1.5 !important;
+  }
+  
+  /* Ajuste de titulos en móvil */
+  h1 {
+    font-size: 22px !important;
+  }
+  
+  h2 {
+    font-size: 20px !important;
+  }
+  
+  h3 {
+    font-size: 18px !important;
+  }
 }
 
 /* Para pantallas muy pequeñas */
@@ -94,6 +156,10 @@ body > header a.active:after {
   body > header a {
     margin: 0 5px !important;
     font-size: 13px !important;
+  }
+  
+  p, li {
+    font-size: 14px !important;
   }
 }
 
