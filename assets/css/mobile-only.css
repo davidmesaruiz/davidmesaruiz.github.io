@@ -88,43 +88,6 @@ main {
   overflow-x: visible !important;
 }
 
-/* Formateo para el título "About Me" con foto */
-h2:contains("About Me"),
-h1:contains("About Me"),
-h2#about-me,
-h1#about-me,
-*[id="about-me"],
-h2:first-of-type {
-  position: relative !important;
-  display: flex !important;
-  align-items: center !important;
-  margin-bottom: 20px !important;
-  padding-right: 100px !important;
-  min-height: 80px !important;
-}
-
-/* Añadir la imagen circular junto al título About Me */
-h2:contains("About Me")::after,
-h1:contains("About Me")::after,
-h2#about-me::after,
-h1#about-me::after,
-*[id="about-me"]::after,
-h2:first-of-type::after {
-  content: "" !important;
-  width: 80px !important;
-  height: 80px !important;
-  border-radius: 50% !important;
-  background-image: url('/images/dmr_gimage.jpg') !important;
-  background-size: cover !important;
-  background-position: center !important;
-  position: absolute !important;
-  right: 0 !important;
-  top: 0 !important;
-  display: block !important;
-  border: 2px solid #fff !important;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2) !important;
-}
-
 /* Asegurar que todos los elementos de texto se vean correctamente */
 p, h1, h2, h3, h4, h5, h6, ul, ol, li, a, span, div {
   max-width: 100% !important;
