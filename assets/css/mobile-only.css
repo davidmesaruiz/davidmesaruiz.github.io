@@ -1,104 +1,129 @@
-/* SOLO estilos moviles - no afecta desktop */
+/* CSS SOLO para móvil - no afecta desktop */
 @media only screen and (max-width: 767px) {
-  /* Asegurar ancho completo en movil */
-  body > article,
-  .page-content,
-  main {
-    width: 100% !important;
-    padding: 15px !important;
-    margin: 0 !important;
-    box-sizing: border-box;
+  /* Ocultar elementos del menú en móvil */
+  body > header nav a[href*="AoE_25"] {
+    display: none !important;
   }
   
-  /* Arreglar contenedores flex */
+  /* Menú más compacto */
+  body > header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  body > header nav a {
+    font-size: 0.85em;
+    padding: 5px 8px;
+    margin: 2px;
+  }
+  
+  /* Crear layout con imagen pequeña arriba */
+  .page-content > p:first-of-type {
+    display: none; /* Ocultar "Hello there!" inicial */
+  }
+  
+  .page-content > div:first-of-type > div:first-child {
+    position: relative;
+  }
+  
+  /* Añadir imagen pequeña junto a About Me */
+  .page-content h2:first-of-type::after {
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: -10px;
+    width: 80px;
+    height: 80px;
+    background-image: url('/images/dmr_gimage.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+  }
+  
+  /* Ajustar el contenedor para la imagen */
+  .page-content h2:first-of-type {
+    position: relative;
+    padding-right: 100px;
+  }
+  
+  /* Welcome message en móvil */
+  .page-content::before {
+    content: "Hello there! Welcome to my website.";
+    display: block;
+    margin-bottom: 20px;
+    font-size: 1em;
+  }
+  
+  /* Ocultar la imagen principal grande en móvil */
+  img[alt="Pic of David"] {
+    display: none !important;
+  }
+  
+  /* Mostrar una versión mediana de la imagen más abajo */
+  .page-content > div:first-of-type::after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 30px auto;
+    background-image: url('/images/dmr_gimage.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+  }
+  
+  /* Resto de estilos para móvil */
+  body > article {
+    width: 100% !important;
+    padding: 15px !important;
+  }
+  
   div[style*="display: flex"] {
     display: block !important;
   }
   
   div[style*="flex:"] {
     width: 100% !important;
-    max-width: 100% !important;
     flex: none !important;
     padding: 0 !important;
-    margin-bottom: 20px !important;
   }
   
-  /* Imagenes */
-  img {
-    max-width: 100% !important;
-    height: auto !important;
-    display: block;
-    margin: 20px auto;
-  }
-  
-  /* Imagen de perfil */
-  img[alt*="David"] {
-    width: 200px !important;
-    max-width: 200px !important;
-  }
-  
-  /* Texto completo */
-  p, ul, ol, li, h1, h2, h3, h4, h5, h6 {
+  p, ul, ol, li, h1, h2, h3 {
     width: 100% !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
-    word-wrap: break-word;
   }
   
-  /* Eliminar márgenes laterales */
   * {
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
   
-  /* Restaurar márgenes verticales */
   p, ul, ol {
     margin-top: 10px;
     margin-bottom: 10px;
   }
   
-  h1, h2, h3 {
-    margin-top: 20px;
-    margin-bottom: 15px;
-  }
-  
-  /* Arreglar iframe del CV */
   iframe {
     width: 100% !important;
     height: 500px !important;
   }
-  
-  /* Navegación movil */
-  nav {
-    text-align: center;
-  }
-  
-  nav a {
-    display: inline-block;
-    margin: 5px;
-  }
-  
-  /* Ocultar scroll horizontal */
-  body, html {
-    overflow-x: hidden;
-  }
 }
 
-/* SOLO para pantallas muy pequeñas */
-@media only screen and (max-width: 480px) {
-  body {
-    font-size: 16px;
+/* Solo para móvil - texto del menú más corto */
+@media only screen and (max-width: 767px) {
+  /* Cambiar texto del menú solo en móvil */
+  body > header nav a[href*="non_academic_writing"]::after {
+    content: "Writing";
   }
   
-  h1 {
-    font-size: 24px;
+  body > header nav a[href*="non_academic_writing"] {
+    font-size: 0;
   }
   
-  h2 {
-    font-size: 20px;
-  }
-  
-  h3 {
-    font-size: 18px;
+  body > header nav a[href*="non_academic_writing"]::after {
+    font-size: 0.85rem;
   }
 }
