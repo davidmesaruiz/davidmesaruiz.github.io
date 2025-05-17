@@ -1,8 +1,64 @@
-/* CSS SOLO para móvil - no afecta desktop */
+/* CSS SOLO para móvil - corregido */
 @media only screen and (max-width: 767px) {
-  /* Ocultar elementos del menú en móvil */
-  body > header nav a[href*="AoE_25"] {
-    display: none !important;
+  /* Ajustar el ancho y el margen */
+  body > article,
+  .page-content {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 15px !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  
+  /* Posicionar la imagen junto a About Me */
+  h2:first-of-type {
+    position: relative;
+    margin-right: 100px;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+  }
+  
+  h2:first-of-type::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-image: url('/images/dmr_gimage.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    right: -90px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  /* Ajustar el texto */
+  p, h1, h2, h3, ul, ol {
+    width: 100% !important;
+    max-width: 100% !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    box-sizing: border-box !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  
+  /* Especialmente para párrafos */
+  p {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+    margin-bottom: 16px !important;
+    white-space: normal !important;
+  }
+  
+  /* Asegurar que no hay desplazamiento horizontal */
+  html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
   }
   
   /* Menú más compacto */
@@ -10,59 +66,19 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 5px;
   }
   
-  body > header nav a {
-    font-size: 0.85em;
-    padding: 5px 8px;
-    margin: 2px;
-  }
-  
-  /* Crear layout con imagen pequeña arriba */
-  .page-content > p:first-of-type {
-    display: none; /* Ocultar "Hello there!" inicial */
-  }
-  
-  .page-content > div:first-of-type > div:first-child {
-    position: relative;
-  }
-  
-  /* Añadir imagen pequeña junto a About Me */
-  .page-content h2:first-of-type::after {
-    content: "";
-    position: absolute;
-    right: 15px;
-    top: -10px;
-    width: 80px;
-    height: 80px;
-    background-image: url('/images/dmr_gimage.jpg');
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-  }
-  
-  /* Ajustar el contenedor para la imagen */
-  .page-content h2:first-of-type {
-    position: relative;
-    padding-right: 100px;
-  }
-  
-  /* Welcome message en móvil */
-  .page-content::before {
-    content: "Hello there! Welcome to my website.";
-    display: block;
-    margin-bottom: 20px;
-    font-size: 1em;
-  }
-  
-  /* Ocultar la imagen principal grande en móvil */
+  /* Quitar la imagen grande */
   img[alt="Pic of David"] {
     display: none !important;
   }
   
-  /* Mostrar una versión mediana de la imagen más abajo */
-  .page-content > div:first-of-type::after {
+  /* Crear la imagen mediana */
+  .page-content > div:first-of-type > div:first-child {
+    position: relative;
+  }
+  
+  .page-content > div:first-of-type > div:first-child::after {
     content: "";
     display: block;
     width: 200px;
@@ -74,56 +90,31 @@
     border-radius: 50%;
   }
   
-  /* Resto de estilos para móvil */
-  body > article {
-    width: 100% !important;
-    padding: 15px !important;
-  }
-  
+  /* Forzar layout vertical */
   div[style*="display: flex"] {
     display: block !important;
   }
   
   div[style*="flex:"] {
     width: 100% !important;
+    max-width: 100% !important;
     flex: none !important;
-    padding: 0 !important;
   }
   
-  p, ul, ol, li, h1, h2, h3 {
-    width: 100% !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+  /* Evitar que los enlaces se rompan */
+  a {
+    word-break: break-all;
   }
   
-  * {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+  /* Ajustar imagen de banderas */
+  img[alt="Flags"] {
+    max-width: 100% !important;
+    height: auto !important;
   }
   
-  p, ul, ol {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  
+  /* iframe del CV */
   iframe {
     width: 100% !important;
     height: 500px !important;
-  }
-}
-
-/* Solo para móvil - texto del menú más corto */
-@media only screen and (max-width: 767px) {
-  /* Cambiar texto del menú solo en móvil */
-  body > header nav a[href*="non_academic_writing"]::after {
-    content: "Writing";
-  }
-  
-  body > header nav a[href*="non_academic_writing"] {
-    font-size: 0;
-  }
-  
-  body > header nav a[href*="non_academic_writing"]::after {
-    font-size: 0.85rem;
   }
 }
