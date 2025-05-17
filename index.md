@@ -8,7 +8,7 @@ title: ""
     <p>Hello there! Welcome to my website.</p>
     <h2>About Me</h2>
     <p>I'm a PhD Candidate at the University of Edinburgh. My supervisors are Maia Guell and Andreas Steinhauer. I'm also affiliated to the Centre for Data Culture and Society at the University of Edinburgh as well as the Digital Global Development Cluster.</p>
-    <p>My main research interests lie in the areas of Urban Economics, Labor Economics, and Crime Economics. I am also interested in Data Science and Machine Learning applications.</p>
+    <p>My main research interests lie in the areas of Urban Economics and Real Estate, Labor Economics, and Crime Economics. I am also interested in Data Science and Machine Learning applications.</p>
     <p>Before joining the PhD program, I worked for two years as a senior consultant in economics and econometrics at EY Spain and one pre-doc year in Pablo de Olavide University. I've also worked as RA for several funded projects where the PI is Maia Guell, and as an external consultant.</p>
     <p> I have also experience teaching introductory courses in economics and advanced econometric courses. </p>
     <p> In my free time, I love learning new skills, exploring Scotland, playing tennis, enjoying theatre, and playing the ukulele. </p>      
