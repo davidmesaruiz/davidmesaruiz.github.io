@@ -111,7 +111,7 @@ main {
   overflow-x: visible !important;
 }
 
-/* Estilos para la foto circular en h2 */
+/* Estilos para la foto circular en h2 - Mejorado */
 h2:first-of-type {
   position: relative !important;
   padding-right: 100px !important;
@@ -133,6 +133,19 @@ h2:first-of-type::after {
   right: 0 !important;
   top: 0 !important;
   display: block !important;
+  box-shadow: 0 0 0 3px #fff, 0 0 0 4px #ddd !important;
+  z-index: 5 !important;
+}
+
+/* Aplicar estilo circular también a la imagen directa si existe */
+.profile-image,
+img[alt="Pic of David"],
+img[src*="dmr_gimage.jpg"] {
+  border-radius: 50% !important;
+  width: 80px !important;
+  height: 80px !important;
+  object-fit: cover !important;
+  box-shadow: 0 0 0 3px #fff, 0 0 0 4px #ddd !important;
 }
 
 /* Asegurar que todos los elementos de texto se vean correctamente */
@@ -155,6 +168,34 @@ img {
 /* Espaciado de párrafos */
 p {
   padding: 0 0 15px 0 !important;
+}
+
+/* Solución alternativa para la foto circular - Agregar después del contenido principal */
+#main-content::after,
+.page-content::after,
+body > article::after {
+  content: "" !important;
+  position: fixed !important;
+  top: 100px !important;
+  right: 20px !important;
+  width: 80px !important;
+  height: 80px !important;
+  border-radius: 50% !important;
+  background-image: url('/images/dmr_gimage.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  box-shadow: 0 0 0 3px #fff, 0 0 0 4px #ddd !important;
+  z-index: 100 !important;
+  display: block !important;
+}
+
+/* Ocultar la solución alternativa en móvil */
+@media only screen and (max-width: 767px) {
+  #main-content::after,
+  .page-content::after,
+  body > article::after {
+    display: none !important;
+  }
 }
 
 /* Transformar flex layouts a block en móvil */
@@ -230,17 +271,5 @@ p {
   
   h3 {
     font-size: 18px !important;
-  }
-}
-
-/* Para pantallas muy pequeñas */
-@media only screen and (max-width: 380px) {
-  body > header a {
-    margin: 0 5px !important;
-    font-size: 13px !important;
-  }
-  
-  p, li {
-    font-size: 14px !important;
   }
 }
