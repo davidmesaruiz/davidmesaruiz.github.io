@@ -1,185 +1,64 @@
-/* CSS para menú horizontal y texto de David Mesa-Ruiz */
-
-/* Estilos generales */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  overflow-wrap: break-word !important;
-  word-wrap: break-word !important;
-  -ms-word-break: break-word !important;
-  word-break: break-word !important;
-  -ms-hyphens: auto !important;
-  -moz-hyphens: auto !important;
-  -webkit-hyphens: auto !important;
-  hyphens: auto !important;
-}
-
-/* Contenedor del menú principal */
-body > header {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  flex-wrap: wrap !important;
-  padding: 15px 10px !important;
-  background-color: #fff !important;
-  border-bottom: 1px solid #eaeaea !important;
-}
-
-/* Nombre del autor - primer elemento */
-body > header > a:first-child {
-  font-weight: bold !important;
-  font-size: 18px !important;
-  margin-right: 25px !important;
-  color: #333 !important;
-  text-decoration: none !important;
-}
-
-/* Links del menú */
-body > header a {
-  display: inline-block !important;
-  margin: 0 12px !important;
-  padding: 5px 8px !important;
-  color: #444 !important;
-  text-decoration: none !important;
-  font-size: 16px !important;
-  transition: color 0.3s ease !important;
-  position: relative !important;
-}
-
-/* Efecto hover para los enlaces */
-body > header a:hover {
-  color: #000 !important;
-  text-decoration: none !important;
-}
-
-/* Indicador de enlace activo */
-body > header a.active,
-body > header a:active {
-  font-weight: bold !important;
-}
-
-/* Indicador sutil de enlace activo */
-body > header a:after {
-  content: "" !important;
-  position: absolute !important;
-  bottom: 0 !important;
-  left: 50% !important;
-  width: 0 !important;
-  height: 2px !important;
-  background: #555 !important;
-  transition: all 0.3s ease !important;
-  transform: translateX(-50%) !important;
-}
-
-body > header a:hover:after,
-body > header a.active:after {
-  width: 80% !important;
-}
-
-/* Contenido principal - arregla problemas de texto cortado */
-body > article,
-.page-content,
-main {
-  width: 100% !important;
-  max-width: 100% !important;
-  padding: 15px !important;
-  box-sizing: border-box !important;
-  overflow-x: visible !important;
-}
-
-/* Asegurar que todos los elementos de texto se vean correctamente */
-p, h1, h2, h3, h4, h5, h6, ul, ol, li, a, span, div {
-  max-width: 100% !important;
-  overflow-wrap: break-word !important;
-  word-wrap: break-word !important;
-  -ms-word-break: break-word !important;
-  word-break: break-word !important;
-  white-space: normal !important;
-}
-
-/* Asegurar que las imágenes se ajusten correctamente */
-img {
-  max-width: 100% !important;
-  height: auto !important;
-  display: block !important;
-}
-
-/* Ajuste para pantallas móviles */
-@media only screen and (max-width: 767px) {
-  body > header {
-    padding: 10px 5px !important;
-  }
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<head>
+  <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
+  <meta charset="{{ site.encoding }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="{{ page.author | default: site.author | escape }}">
+  <meta name="generator" content="Jekyll v{{ jekyll.version }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
   
-  body > header > a:first-child {
-    width: 100% !important;
-    text-align: center !important;
-    margin-bottom: 10px !important;
-    margin-right: 0 !important;
-  }
+  <!-- Estilos base del tema -->
+  {% if site.show_frame %}
+  <link rel="stylesheet" href="{{ "/assets/css/frame.css" | relative_url }}">
+  {% else %}
+  <link rel="stylesheet" href="{{ "/assets/css/index.css" | relative_url }}">
+  {% endif %}
   
-  body > header a {
-    margin: 0 8px !important;
-    padding: 5px !important;
-    font-size: 14px !important;
-  }
+  <!-- Estilos responsivos personalizados - siempre activos -->
+  <link rel="stylesheet" href="{{ "/assets/css/responsive-styles.css" | relative_url }}">
   
-  /* Contenido principal en móvil */
-  body > article,
-  .page-content,
-  main {
-    padding: 15px 10px !important;
-  }
+  {% if site.plugins contains "jekyll-feed" %}
+  <link rel="alternate" href="{{ site.feed.path | default: "/feed.xml" | relative_url }}" type="application/atom+xml" title="{{ site.title }}">
+  {% endif %}
   
-  /* Texto más pequeño en móvil para mejor ajuste */
-  p, li {
-    font-size: 15px !important;
-    line-height: 1.5 !important;
-  }
+  {% if page.mathjax or site.mathjax %}
+  <link rel="stylesheet" href="{{ "/assets/katex/katex.min.css" | relative_url }}">
+  <script defer src="{{ "/assets/katex/katex.min.js" | relative_url }}"></script>
+  <script defer src="{{ "/assets/katex/contrib/auto-render.min.js" | relative_url }}" onload="renderMathInElement(document.body)"></script>
+  {% endif %}
   
-  /* Ajuste de titulos en móvil */
-  h1 {
-    font-size: 22px !important;
-  }
+  {% if site.comments.disqus_shortname and page.layout == "post" %}
+  <script src="//{{ site.comments.disqus_shortname }}.disqus.com/embed.js" async></script>
+  {% endif %}
   
-  h2 {
-    font-size: 20px !important;
-  }
+  {% if site.comments.isso_domain and page.layout == "post" %}
+  <script data-isso="http://{{ site.comments.isso_domain }}" src="//{{ site.comments.isso_domain }}/js/embed.min.js"></script>
+  {% endif %}
+</head>
+<body>
+  {% if site.show_sidebar or site.sidebar %}{% include sidebar.html %}{% endif %}
   
-  h3 {
-    font-size: 18px !important;
-  }
-}
-
-/* Para pantallas muy pequeñas */
-@media only screen and (max-width: 380px) {
-  body > header a {
-    margin: 0 5px !important;
-    font-size: 13px !important;
-  }
+  {% if site.navigation %}
+    {% assign pages = site.navigation %}
+  {% else %}
+    {% assign pages = site.pages | where_exp: "item", "item.title and item.sitemap != false" | sort: "order" %}
+  {% endif %}
   
-  p, li {
-    font-size: 14px !important;
-  }
-}
-
-/* Cambiar "Non-academic writing" a "Writing" */
-body > header a[href*="non_academic_writing"] {
-  font-size: 0 !important;
-}
-
-body > header a[href*="non_academic_writing"]::after {
-  content: "Writing" !important;
-  font-size: 16px !important;
-  display: inline-block !important;
-  position: static !important;
-  width: auto !important;
-  height: auto !important;
-  background: none !important;
-}
-
-@media only screen and (max-width: 767px) {
-  body > header a[href*="non_academic_writing"]::after {
-    font-size: 14px !important;
-  }
-}
+  <header>
+    <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
+    <nav>
+      {% include menu.html menu=pages %}
+    </nav>
+  </header>
+  
+  {{ content }}
+  
+  {% if site.external %}
+  <footer>
+    <div>{{ site.description | default: site.title }}</div>
+    {% include menu.html menu=site.external %}
+  </footer>
+  {% endif %}
+</body>
+</html>
