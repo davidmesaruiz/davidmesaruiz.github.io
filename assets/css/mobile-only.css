@@ -106,7 +106,7 @@ header a[href*="Non-academic writing"] {
 
 header a[href*="non_academic_writing"]::after,
 header a[href*="Non-academic writing"]::after {
-  content: "Writing";
+  content: "Other Writing";
   font-size: 16px;
   display: inline-block;
   position: static; /* Importante: asegura que no afecte la posición del indicador de hover */
