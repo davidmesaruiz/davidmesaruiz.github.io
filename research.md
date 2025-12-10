@@ -14,8 +14,7 @@ title: ""
           </a>
         </span>
         <p style="font-size: 12pt; margin-top: 5px;">
-          This paper analyses the regional heterogeneous effects of property transaction taxes in the residential housing market in England and Wales. I exploit two different sources of variation. Firstly, a single tax rate applied to transactions in some price bands and jumped at some cutoffs (slab system). After a reform in December 2014, the same bands of the purchase price were taxed at increasing rates and the discrete jumps were replaced by changes in the slope (slice system). Using a combination of administrative and quasi-administrative data, and a bunching design and augmented synthetic control strategy, I estimate how different were the effects of both systems in London and outside London. I find that the slab system destroyed property transactions outside London, but not in London. However, the reform to the slice system mitigated this welfare loss. To explore the mechanisms driving such variation across regions, I build a search a matching model of the ownership market that incorporates bunching. Based on simulations of the model, motivated by descriptive evidence, sellers’
-financial restrictions explain the regional heterogeneity in the response to the tax.
+          This paper analyses the regional heterogeneous effects of property transaction taxes in the residential housing market in England and Wales. I exploit two sources of variation. Firstly, a single tax rate is applied to transactions in some price bands and jumped at some cutoffs (slab system). After a reform in December 2014, successive bands of the purchase price were taxed at increasing rates, and the discrete jumps were replaced by changes in the slope (slice system). Using a combination of administrative and quasi-administrative data, I estimate how different the effects of both systems were in London and out of  London. I find that the slab system destroyed property transactions out of  London, but not in London. However, the reform to the slice system mitigated this welfare loss. To explore the mechanisms driving this variation across regions, I build a search and matching model of the ownership market that incorporates bunching. Motivated by descriptive evidence, simulations of the model suggest that sellers' search cost and sellers' transaction gains/costs explain the regional heterogeneity in the response to the tax.
         </p>
         <p style="font-size: 11pt; margin-top: 5px; margin-bottom: 0;">Presented at:</p>
         <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; font-size: 11pt;">
@@ -23,6 +22,10 @@ financial restrictions explain the regional heterogeneity in the response to the
           <li>Conference (scheduled) - Spanish Public Economics Meeting (2025)</li>
           <li>Conference (scheduled) - Housing Studies Association Conference (2025)</li>
           <li>Conference - Scottish Economic Society Conference (2025)</li>
+          <li>Seminar - Centre for Competence in Microeconomic Evaluation (2025)</li>
+          <li>Seminar - Pablo de Olavide University (2025)</li>
+          <li>Seminar - University of Granada (2025)</li>
+          <li>Seminar - University of Malaga (2025)</li>
           <li>Internal Seminar - University of Edinburgh (2024)</li>
           <li>Workshop - Ph.D. Statistics Day at the University of Edinburgh (2023)</li>
         </ul>             
