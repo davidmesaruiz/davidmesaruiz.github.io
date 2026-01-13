@@ -18,9 +18,10 @@ title: ""
         </p>
         <p style="font-size: 11pt; margin-top: 5px; margin-bottom: 0;">Presented at:</p>
         <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; font-size: 11pt;">
-          <li>Conference (scheduled) - Royal Economic Society (2025)</li>
-          <li>Conference (scheduled) - Spanish Public Economics Meeting (2025)</li>
-          <li>Conference (scheduled) - Housing Studies Association Conference (2025)</li>
+          <li>Workshop (scheduled) - Lisbon Urban and Public Economics Workshop (2026)</li>
+          <li>Conference - Royal Economic Society (2025)</li>
+          <li>Conference - Spanish Public Economics Meeting (2025)</li>
+          <li>Conference - Housing Studies Association Conference (2025)</li>
           <li>Conference - Scottish Economic Society Conference (2025)</li>
           <li>Seminar - Centre for Competence in Microeconomic Evaluation (2025)</li>
           <li>Seminar - Pablo de Olavide University (2025)</li>
@@ -57,6 +58,16 @@ title: ""
           <li>Conference - Scottish Graduate Program in Economics Conference (2024)</li>
         </ul>
       </li>
+      <li style="margin-bottom: 20px;">
+        <span style="font-size: 14pt;">
+          <a href="">
+            Energy Efficiency and Property Prices
+          </a>
+        </span>
+        <p style="font-size: 12pt; margin-top: 5px;">
+        </p>
+        <p style="font-size: 11pt; margin-top: 5px; margin-bottom: 0;">Presented at:</p>
+      </li>      
       <li style="margin-top: 25px;">
         <span style="font-size: 14pt;">
           Did Low-Skilled Men Crowd Low-Skilled Women Out of the UK Labor Market?
