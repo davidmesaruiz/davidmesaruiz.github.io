@@ -65,9 +65,6 @@ title: ""
           </a>
         </span>
         <p style="font-size: 12pt; margin-top: 5px;">
-        </p>
-        <p style="font-size: 11pt; margin-top: 5px; margin-bottom: 0;">Presented at:</p>
-      </li>      
       <li style="margin-top: 25px;">
         <span style="font-size: 14pt;">
           Did Low-Skilled Men Crowd Low-Skilled Women Out of the UK Labor Market?
