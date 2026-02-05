@@ -57,14 +57,14 @@ title: ""
           <li>Conference - Scottish Economic Society Conference (2024)</li>
           <li>Conference - Scottish Graduate Program in Economics Conference (2024)</li>
         </ul>
-      </li>
-      <li style="margin-bottom: 20px;">
-        <span style="font-size: 14pt;">
-          <a href="">
-            Energy Efficiency and Property Prices
-          </a>
-        </span>
-      </li>
+        </li>
+        <li style="margin-top: 20px; margin-bottom: 20px;">
+          <span style="font-size: 14pt;">
+            <a href="">
+              Energy Efficiency and Property Prices
+            </a>
+          </span>
+        </li>
       <li style="margin-top: 25px;">
         <span style="font-size: 14pt;">
           Did Low-Skilled Men Crowd Low-Skilled Women Out of the UK Labor Market?
