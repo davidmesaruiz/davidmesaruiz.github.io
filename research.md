@@ -61,16 +61,16 @@ title: ""
         <li style="margin-top: 20px; margin-bottom: 20px;">
           <span style="font-size: 14pt;">
             <a href="">
-              Energy Efficiency and Property Prices
+              The Causal Effect of Energy Efficiency on Property Prices
             </a>
           </span>
         </li>
       <li style="margin-top: 25px;">
         <span style="font-size: 14pt;">
-          Did Low-Skilled Men Crowd Low-Skilled Women Out of the UK Labor Market?
+          Did Low-Skilled Men Crowd Low-Skilled Women Out of the UK Labour Market?
         </span>
         <p style="font-size: 12pt; margin-top: 5px;">
-          This paper examines the impact of information and communications technologies (ICT) on employment in the UK, focusing on how ICT has polarized job opportunities by skill level and gender. It explores how low-skilled men, displaced from blue-collar jobs, have moved into interpersonal occupations, potentially displacing low-skilled women, mirroring trends observed in the U.S. labor market.
+          This paper examines the impact of information and communications technologies (ICT) on employment in the UK, focusing on how ICT has polarised job opportunities by skill level and gender. It explores how low-skilled men, displaced from blue-collar jobs, have moved into interpersonal occupations, potentially displacing low-skilled women, mirroring trends observed in the U.S. labour market.
         </p>
         <p style="font-size: 11pt; margin-top: 5px; margin-bottom: 0;">Presented at:</p> 
         <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px; font-size: 11pt;">
